@@ -1,4 +1,4 @@
-package kr.co.saramin.logexample1.controller;
+package com.bit2016.logexample1.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -32,10 +32,10 @@ public class ExampleController {
 		 *     직접 테스트 해 보세요.
 		 *  
 		 */
-		LOG.debug( "#ex1 - debug log" );
+		LOG.debug( "#ex1 - debug log" ); //세세하게 출력
 		LOG.info( "#ex1 - info log" );
-		LOG.warn( "#ex1 - warn log" );
-		LOG.error( "#ex1 - error log" );
+		LOG.warn( "#ex1 - warn log" ); //계속 나오면 봐야함
+		LOG.error( "#ex1 - error log" ); 
 		
 		return "Logback Logging Example1";
 	}

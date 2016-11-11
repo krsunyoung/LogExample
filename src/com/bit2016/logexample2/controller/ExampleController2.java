@@ -1,4 +1,4 @@
-package kr.co.saramin.logexample2.controller;
+package com.bit2016.logexample2.controller;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -29,7 +29,7 @@ public class ExampleController2 {
 		 *     logexample2.log 파일이 생성되는 것을 확인해 봐야 합니다.
 		 *    
 		 *  4. 새로운 로거를 세팅하고 있습니다.
-		 *     "com.bit2015.logexample2" 로거인데, 파일로만 로그를 남기고 있는 것을 확인해야
+		 *     "com.bit201.logexample2" 로거인데, 파일로만 로그를 남기고 있는 것을 확인해야
 		 *     합니다.
 		 *     
 		 *  5. 이 로거의 로그 레벨이 INFO 인 것도 로그 파일에서 확인해 보세요.   
